@@ -1,0 +1,4 @@
+include ':aFileChooser'
+include ':handGestureApp'
+include ':openCVLibrary330'
+include ':androidlibsvm-release'
