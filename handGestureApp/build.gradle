@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        applicationId "com.raquezha.handgesture"
+        minSdkVersion 21
+        targetSdkVersion 27
+
+
+    }
+
+
+
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+
+}
+
+dependencies {
+    implementation project(':openCVLibrary330')
+    implementation project(':aFileChooser')
+    implementation project(':androidlibsvm-release')
+    implementation 'com.android.support:support-v4:27.1.0'
+}
