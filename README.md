@@ -1,8 +1,8 @@
 # HandGestureApp
 
-This is not mine, I just import eaglesky ECLIPSE Project to Android Studio
+This project is based on eaglesky's HandGestureApp
+I've upgraded OpenCv to 3.3.0 and tried to remove most of the native code there was without affecting the project's intended funtionality.
 
-I've change the OpenCV version to 2.4.8 to 2.4.9
 
 Original Github Project: https://github.com/eaglesky/HandGestureApp/
 
